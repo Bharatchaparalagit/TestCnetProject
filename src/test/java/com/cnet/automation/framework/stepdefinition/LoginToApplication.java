@@ -75,7 +75,7 @@ public class LoginToApplication {
 		Thread.sleep(2000);
 		//Runtime.getRuntime().exec("C:\\CNET\\Automation\\AutoIT\\OrderGuideClick.exe");
 		//driver.findElement(By.cssSelector("id#32ce5bb37f000001019feb946298246d")).click();
-		//driver.findElement(By.xpath("//a[@id='32ce5bb37f000001019feb946298246d']/div/div")).click();
+		driver.findElement(By.xpath("//a[@id='32ce5bb37f000001019feb946298246d']/div/div")).click();
 		//driver.findElement(By.xpath("//div[contains(text()='Order Guides')]")).click();
 		//WebElement listBox = driver.findElement(By.className("ng-binding"));
 		//driver.findElement(By.linkText("Order Guides")).click();
